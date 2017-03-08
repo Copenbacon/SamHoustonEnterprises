@@ -2,7 +2,9 @@ from sqlalchemy import (
     Column,
     Index,
     Integer,
-    Text,
+    Float,
+    Unicode,
+    Date
 )
 
 from .meta import Base

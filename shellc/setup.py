@@ -13,16 +13,21 @@ requires = [
     'pyramid_jinja2',
     'pyramid_debugtoolbar',
     'pyramid_tm',
+    'ipython',
+    'pyramid_ipython',
     'SQLAlchemy',
     'transaction',
     'zope.sqlalchemy',
     'waitress',
+    'psycopg2',
+    'passlib',
     ]
 
 tests_require = [
     'WebTest >= 1.3.1',  # py3 compat
     'pytest',  # includes virtualenv
     'pytest-cov',
+    'tox',
     ]
 
 setup(name='shellc',
@@ -35,10 +40,10 @@ setup(name='shellc',
           "Topic :: Internet :: WWW/HTTP",
           "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
       ],
-      author='',
-      author_email='',
-      url='',
-      keywords='web wsgi bfg pylons pyramid',
+      author='Conor Clary',
+      author_email='conor.clary@gmail.com',
+      url='www.samhoustonenterprises.com',
+      keywords='web wsgi bfg pylons pyramid Sam Houston Enterprises LLC consulting',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
@@ -50,6 +55,6 @@ setup(name='shellc',
       [paste.app_factory]
       main = shellc:main
       [console_scripts]
-      initialize_shellc_db = shellc.scripts.initializedb:main
+      initialize_db = shellc.scripts.initializedb:main
       """,
       )
