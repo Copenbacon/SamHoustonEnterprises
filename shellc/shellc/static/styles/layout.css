@@ -1,0 +1,15 @@
+
+div .home-content {
+  width: 90%;
+  margin: auto;
+}
+
+
+@media screen and (min-width:605px) {
+  div .home-content {
+    width: 85%;
+    margin: auto;
+  }
+
+}
+/*complete*/  

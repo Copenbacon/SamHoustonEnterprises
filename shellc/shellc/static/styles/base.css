@@ -1,0 +1,9 @@
+html body {
+  background-color: #F3F3F3;
+  font-family: sans-serif;
+}
+
+.home-content {
+  /*width: 95%;*/
+  margin: auto;
+}

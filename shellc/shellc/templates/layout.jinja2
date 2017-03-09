@@ -7,11 +7,14 @@
     <meta name="description" content="pyramid web application">
     <meta name="author" content="Conor Clary, Sam Houston Enterprises">
     <title>{% block title %} Sam Houston Enterprises {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ request.static_path('shellc:static/styles/base.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ request.static_path('shellc:static/styles/layout.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ request.static_path('shellc:static/styles/modules.css') }}">
   </head>
 
   <body>
     <header>
-        <h3><nav>
+        <h3><nav class='header-menu'>
             <a href="{{ request.route_url('home')}}">Home</a>
         </nav></h3>
     </header>
