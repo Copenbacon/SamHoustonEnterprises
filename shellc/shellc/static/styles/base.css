@@ -2,3 +2,30 @@ html body {
   background-color: #F3F3F3;
   font-family: sans-serif;
 }
+
+html {
+    background-image: url("http://www.publicdomainpictures.net/pictures/170000/velka/wooden-fence-background-1463498631aZc.jpg");
+    background-size: 100%;
+}
+
+.header-menu{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    left: 0;
+    top: .5%;
+    width: 100%;
+    padding: 1.5% 0% 1.5% 0%;
+    top: -2.5%;
+}
+
+.header-menu-a{
+    color: #FFFFFF;
+}
+
+.header-menu-a:visited{
+    color: #FFFFFF;
+}
+
+.header-menu-a:hover{
+    color: #000;
+} 

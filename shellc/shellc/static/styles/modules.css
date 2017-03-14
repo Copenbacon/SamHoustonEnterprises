@@ -2,8 +2,12 @@
 
 @media screen and (min-width:600px) {
   div.home-bg-img{
-      margin: 0
-      width: 100%;
-      content:url();
+      margin: -5%;
+      width: 110%;
+      background-color: #000000; 
+      opacity: 50%;
+  }
+  .home-content{
+    z-index: -1;
   }
 }
