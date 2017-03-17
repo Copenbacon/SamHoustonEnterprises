@@ -1,25 +1,10 @@
-
 div.home-content {
-  width: 90%;
-  margin: auto;
+  text-align: center;
+  width: 85%;
 }
 
-div.home-bg-img{
-    margin: 0;
-    width: 100%;
-    content:url();
-}
-
-@media screen and (min-width:605px) {
+@media screen and (min-width:960px) {
   div.home-content {
-    width: 85%;
     margin: auto;
-    text-align: center;
-    z-index: 10000;
-  }
-
-  .header-menu-a {
-    margin-left: 1%; 
   }
 }
-/*complete*/  

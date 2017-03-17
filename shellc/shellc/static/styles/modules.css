@@ -1,10 +1,14 @@
+@media screen and (min-width:960px) {
+    .services{
+        list-style-type: none;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        background-color: rgb(206, 206, 206);
+        width: 45%;
+        margin: 0 auto;
+    }
 
-
-@media screen and (min-width:600px) {
-  div.home-bg-img{
-      margin: -5%;
-      width: 110%;
-      background-color: #000000; 
-      opacity: 50%;
-  }
+    .service-items {
+        line-height: 300%;
+    }
 }

@@ -50,10 +50,14 @@ ul#nav-bar {
 
 .nav-items {
   display: inline;
-  color: rgb(122, 122, 122);
+  color: #FFF;
   transition: background-color 350ms ease;
   padding: 15px;
   border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav-items:nth-child(1){
