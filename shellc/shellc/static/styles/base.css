@@ -3,29 +3,161 @@ html body {
   font-family: sans-serif;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 html {
-    background-image: url("http://www.publicdomainpictures.net/pictures/170000/velka/wooden-fence-background-1463498631aZc.jpg");
-    background-size: 100%;
+  max-width: 100%;
 }
 
-.header-menu{
-    background-color: rgba(0,0,0,.5);
-    position: fixed;
-    left: 0;
-    top: .5%;
-    width: 100%;
-    padding: 1.5% 0% 1.5% 0%;
-    top: -2.5%;
+body {
+  width: 960px;
+  margin: auto;
+  overflow-x: hidden;
 }
 
-.header-menu-a{
-    color: #FFFFFF;
+header#header {
+  background-color: #444444;
+  display: block;
+  width: 167.25%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  left: -35%;
 }
 
-.header-menu-a:visited{
-    color: #FFFFFF;
+nav#header-content{
+  width: 960px;
+  margin-left: 21%;
 }
 
-.header-menu-a:hover{
-    color: #000;
-} 
+img#logo{
+  display: inline;
+  margin-top: 1.5%;
+}
+
+ul#nav-bar {
+  display:inline-block;
+  width: 710px;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  margin-top: 2.5%;
+  padding: 0;
+}
+
+
+.nav-items {
+  display: inline;
+  color: rgb(122, 122, 122);
+  transition: background-color 350ms ease;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.nav-items:nth-child(1){
+  margin-left: 2.5%;  
+}
+
+.nav-items:nth-child(2){
+  margin-left: 10%;
+}
+
+.nav-items:nth-child(3){
+  margin-left: 10%;
+}
+
+.nav-items:nth-child(4){
+  margin-left: 10%;
+}
+
+.nav-items:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#banner {
+  max-width: 960px;
+  padding-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sub-banner{
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 1.5%;
+  padding-left: 0;
+  padding-bottom: 1.5%;
+}
+
+.sub-banner-li {
+  display: inline;
+  margin: auto;
+}
+
+#sub-banner-one {
+  float: left;
+}
+
+#sub-banner-two {
+  float: none;
+  margin: auto;
+  padding-left: 3.25%;
+}
+
+#sub-banner-three {
+  float: right;
+}
+
+#featured-section-banner {
+  width: 960px;
+  /*margin-left: 19.35%;*/
+  margin: 2% auto;
+  display: block;
+  padding-bottom: 1.5%;
+}
+
+#featured-section-image{
+  display: inline-block;
+}
+
+div#featured-section-div {
+  height: 359px;
+  display: inline-block;
+  margin-left: 2.5%;
+  position: absolute;
+}
+
+h3#featured-section-h3 {
+  margin: 0;
+}
+
+p#featured-section-verbiage {
+  overflow: hidden;
+  width: 440px;
+  height: 85%;
+  display: inline-flex;
+  font-style: italic;
+  /*padding-right: 30%;*/
+}
+
+p#featured-section-verbiage:hover {
+  overflow-y: scroll;
+  margin-right: 10px;
+}
+
+#call-to-action {
+  width: 175px;
+  height: 41px;
+  background-color: black;
+  color: white;
+  font-size: 115%;
+  display: block;
+  border: none;
+  transition: background-color 350ms ease;
+}
+
+#call-to-action:hover {
+  background-color: rgb(0, 29, 152);
+}

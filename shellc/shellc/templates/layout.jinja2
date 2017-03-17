@@ -13,13 +13,16 @@
   </head>
 
   <body>
-    <header>
-        <h3 class='header-menu'><nav>
-            <a class='header-menu-a' href="{{ request.route_url('home')}}">Home</a>
-            <a class='header-menu-a' href="">Services</a>
-            <a class='header-menu-a' href="">Contact</a>
-        </nav></h3>
+    <header id="header">
+      <nav id="header-content">
+        <ul id="nav-bar">
+          <a href="{{ request.route_url('home')}}"><li class="nav-items">Home</li></a>
+          <a href=""><li class="nav-items">Services</li></a>
+          <a href=""><li class="nav-items">Contact</li></a>
+        </ul>
+      </nav>
     </header>
-    {% block body %}{% endblock %}
+    {% block body %}
+    {% endblock %}
   </body>
 </html>
